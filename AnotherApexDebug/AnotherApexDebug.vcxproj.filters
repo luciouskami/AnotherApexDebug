@@ -17,14 +17,56 @@
       <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
       <Extensions>inf;inv;inx;mof;mc;</Extensions>
     </Filter>
+    <Filter Include="crt">
+      <UniqueIdentifier>{b75d042f-7ebf-411c-8a52-1e90d0472c87}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Driver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CRT\c_alloc.cc">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="CRT\corecrt.cc">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="CRT\new.cc">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="CRT\stlcrt.cc">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObCall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRT\c_alloc.h">
+      <Filter>crt</Filter>
+    </ClInclude>
+    <ClInclude Include="CRT\corecrt.h">
+      <Filter>crt</Filter>
+    </ClInclude>
+    <ClInclude Include="CRT\macro.h">
+      <Filter>crt</Filter>
+    </ClInclude>
+    <ClInclude Include="CRT\new.h">
+      <Filter>crt</Filter>
+    </ClInclude>
+    <ClInclude Include="CRT\stlcrt.h">
+      <Filter>crt</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObCall.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
