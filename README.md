@@ -7,7 +7,7 @@
 Remove EAC's Obcall    
 Remove EAC's Notify  
 Remove EAC's Notify  
-Fake Hande: Process/Threads(haven't been used in Apex) 
+Fake Hande: Process/Threads(haven't been used in Apex)  
 写给中国用户：这个"TODO"【对于国内“大手子”来说】并不是没有写完，而是【故意】删掉了这些代码，毕竟类似“大不列颠山”的人国内还有不少。  
 删去的功能，只要您具备【基本的】windows内核编程基础，都可以自己补完。  
 谢谢大家理解。  
